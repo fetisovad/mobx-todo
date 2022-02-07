@@ -1,8 +1,11 @@
-import TodoStore from './store/TodoStore';
+import TodoList from "./components/TodoList";
 
 function App() {
-  const Hello = <span>Hello</span>;
-  return <div className="App">{Hello}</div>;
+  return (
+    <div className="App">
+      <TodoList/>
+    </div>
+  );
 }
 
 export default App;
